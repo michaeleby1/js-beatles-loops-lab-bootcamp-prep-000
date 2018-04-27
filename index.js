@@ -16,10 +16,10 @@ function johnLennonFacts(facts) {
   return facts2
 }
 
-function iLoveTheBeatles(number) {
+function iLoveTheBeatles(n) {
   let array = []
-  do {
+  do {n++
   array.push('I love the Beatles!')
-} while (number < 15)
+} while (n < 15)
 return array
 }
